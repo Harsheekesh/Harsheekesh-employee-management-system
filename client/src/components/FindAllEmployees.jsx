@@ -8,7 +8,7 @@ export function FindAllEmployees() {
     async function findAllEmployees(e) {
         e.preventDefault();
         try {
-            const response = await axios.get('http://localhost:3001/api/employees');
+            const response = await axios.get('https://harsheekesh-employee-management-system.onrender.com/api/employees');
             setEmployees(response.data);
         } catch (error) {
             alert("Failed to fetch employees");
