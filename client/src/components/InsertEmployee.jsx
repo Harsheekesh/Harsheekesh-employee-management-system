@@ -12,7 +12,7 @@ export function InsertEmployee(){
         
         e.preventDefault();
         try{
-            const response = await axios.post('http://localhost:3001/api/employees', {empNo, empName, empSal});
+            const response = await axios.post('https://harsheekesh-employee-management-system.onrender.com/api/employees', {empNo, empName, empSal});
             alert(response.data.message);
         }
         catch(err)
