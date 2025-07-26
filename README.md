@@ -36,38 +36,7 @@ A full-stack **MERN** application that allows users to **add**, **view**, **upda
 
 ---
 
-## 📂 Folder Structure
-EMPLOYEE-MANAGEMENT/
-│
-├── client/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Delete.jsx
-│ │ │ ├── FindAllEmployees.jsx
-│ │ │ ├── FindById.jsx
-│ │ │ ├── InsertEmployee.jsx
-│ │ │ └── Update.jsx
-│ │ ├── styles/
-│ │ │ ├── App.css
-│ │ │ ├── Delete.css
-│ │ │ ├── FindAllEmployees.css
-│ │ │ ├── FindById.css
-│ │ │ ├── InsertEmployee.css
-│ │ │ └── Update.css
-│ │ ├── App.jsx
-│ │ └── index.js
-│ ├── .env
-│ ├── package.json
-│ └── README.md
-│
-├── server/ # Backend API
-│ ├── index.js
-│ ├── .env
-│ └── package.json
-│
-├── .gitignore
-└── README.md
+
 
 **##🙋‍♂️ Author**
 **Harsheekesh Tiwari
