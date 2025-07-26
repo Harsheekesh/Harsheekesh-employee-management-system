@@ -13,7 +13,7 @@ export function Update(){
         e.preventDefault();
         try
         {
-        const response = await axios.put(`http://localhost:3001/api/employees/${id}`, { empNo: Number(empNo),empName, empSal: Number(empSal)});
+        const response = await axios.put(`https://harsheekesh-employee-management-system.onrender.com/api/employees/${id}`, { empNo: Number(empNo),empName, empSal: Number(empSal)});
         console.log("Update response:", response.data); // Add this line
         alert(response.data.message || "Record updated successfully!");        }
         catch(err)
