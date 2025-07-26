@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = 'https://harsheekesh-employee-management-system-1.onrender.com';
 
 // Middleware
 app.use(express.json());
