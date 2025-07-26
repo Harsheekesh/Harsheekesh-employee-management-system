@@ -37,7 +37,7 @@ A full-stack **MERN** application that allows users to **add**, **view**, **upda
 
 
 
-**##🙋‍♂️ Author**
+**🙋‍♂️ #Author**
 **Harsheekesh Tiwari
 GitHub: [@Harsheekesh](https://github.com/Harsheekesh)
 LinkedIn: [linkedin.com/in/harsheekesh](https://www.linkedin.com/in/harsheekesh-tiwari-01a697292/)**
