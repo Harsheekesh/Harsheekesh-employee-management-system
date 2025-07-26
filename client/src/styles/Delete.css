@@ -1,0 +1,66 @@
+.container-delete {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  margin: 0 auto;
+  animation: fadeIn 0.6s ease;
+  border-top: 4px solid var(--danger);
+}
+
+.container-delete h3 {
+  text-align: center;
+  color: var(--danger);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.9rem;
+  border: 2px solid #fee2e2;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fef2f2;
+  transition: var(--transition);
+}
+
+input:focus {
+  border-color: var(--danger);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+}
+
+button {
+  background: linear-gradient(to right, var(--danger), #f87171);
+  color: white;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  width: 100%;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(239, 68, 68, 0.3);
+}
+
+/* Shake animation for errors */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  button {
+    width: auto;
+  }
+}
