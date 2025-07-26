@@ -6,8 +6,7 @@ A full-stack **MERN** application that allows users to **add**, **view**, **upda
 
 ## 🔗 Live Links
 
-- 🌐 **Frontend (React)**: [https://your-frontend-link.onrender.com](https://your-frontend-link.onrender.com)
-- ⚙️ **Backend (Node/Express)**: [https://harsheekesh-employee-management-system-1.onrender.com/api/employees](https://harsheekesh-employee-management-system-1.onrender.com/api/employees)
+- 🌐**lIVE lINK->>>**: [https://harsheekesh-employee-management-system-1.onrender.com/api/employees](https://harsheekesh-employee-management-system-1.onrender.com/api/employees)
 
 ---
 
