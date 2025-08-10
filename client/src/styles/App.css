@@ -24,7 +24,7 @@ body {
   background-color: #f1f5f9;
   color: var(--dark);
   line-height: 1.6;
-  padding-top: 80px; /* Added for fixed header */
+  
 }
 
 .app-wrapper {
