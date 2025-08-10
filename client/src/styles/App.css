@@ -55,8 +55,8 @@ body {
 
 /* Main content container */
 .app-container {
-  max-width: 1200px;
-  width: 100%;
+  
+  width: 100vw;
   margin: 0 auto;
   padding: 1rem;
   flex: 1;
