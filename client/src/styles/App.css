@@ -35,11 +35,14 @@ body {
 /* Full-width header */
 .full-width-header {
   width: 100vw;
-  position: relative;
+  position: fixed;
   left: 50%;
   right: 50%;
+  z-index: 1000;
   margin-left: -50vw;
   margin-right: -50vw;
+  background: transparent;
+  backdrop-filter: blur(100px);
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   padding: 1.5rem 0;
   box-shadow: var(--shadow);
