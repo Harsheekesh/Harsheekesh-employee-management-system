@@ -17,12 +17,11 @@ export function FindAllEmployees() {
 
     return (
         <div className="container">
-            
-
             <div className="empTable">
                 <table>
                     <thead>
                         <tr>
+                            <th>Employee ID</th>
                             <th>Employee No</th>
                             <th>Employee Name</th>
                             <th>Employee Salary</th>
@@ -31,6 +30,7 @@ export function FindAllEmployees() {
                     <tbody>
                         {employees.map((employee) => (
                             <tr key={employee._id}>
+                                <td>{employee._id}</td>
                                 <td>{employee.empNo}</td>
                                 <td>{employee.empName}</td>
                                 <td>{employee.empSal}</td>
@@ -40,7 +40,7 @@ export function FindAllEmployees() {
                 </table>
             </div>
 
-             <form onSubmit={findAllEmployees}>
+            <form onSubmit={findAllEmployees}>
                 <button id="find-btn" type="submit">Find All</button>
             </form>
         </div>
